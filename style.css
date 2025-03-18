@@ -353,7 +353,7 @@ nav ul li a {
     }
     .companies .logos {
         display: flex;
-        flex-direction: reverserow; 
+        flex-direction: column-reverse; 
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap; 
