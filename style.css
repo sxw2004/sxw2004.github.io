@@ -316,9 +316,7 @@ nav ul li a {
     header h1 {
         margin: 0;
     }
-    .services{
-    flex-direction: column;
-    }
+    
     .hero, .custome, .services, .contact {
         flex-direction: column;
         align-items: center;
@@ -333,7 +331,9 @@ nav ul li a {
         text-align: center;
         width: 100%;
     }
-    
+    .services{
+    flex-direction: column-reverse;
+    }
     .contact-content h1 {
         font-size: 40px;
     }
@@ -356,7 +356,7 @@ nav ul li a {
     .companies .logos {
         display: flex;
         flex-direction: row; 
-        justify-content: center;
+        justify-content: center; 
         align-items: center;
         flex-wrap: nowrap; 
         overflow-x: auto; 
@@ -366,8 +366,9 @@ nav ul li a {
     }
 
     .companies .logos img {
-        max-width:70px;
+        max-width:70px; 
         height: auto;
         
     }
 }
+
