@@ -316,7 +316,9 @@ nav ul li a {
     header h1 {
         margin: 0;
     }
-    
+    .services{
+    flex-direction: column;
+    }
     .hero, .custome, .services, .contact {
         flex-direction: column;
         align-items: center;
