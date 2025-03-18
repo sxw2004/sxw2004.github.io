@@ -353,18 +353,18 @@ nav ul li a {
     }
     .companies .logos {
         display: flex;
-        flex-direction: row; /* Mantiene los íconos en una fila */
-        justify-content: center; /* Centra los íconos */
+        flex-direction: row; 
+        justify-content: center;
         align-items: center;
-        flex-wrap: nowrap; /* Evita que se vayan a otra línea */
-        overflow-x: auto; /* Agrega desplazamiento horizontal si es necesario */
-        gap: 6px; /* Espacio entre los íconos */
+        flex-wrap: nowrap; 
+        overflow-x: auto; 
+        gap: 6px; 
         padding: 20px 10px;
-        white-space: nowrap; /* Asegura que todo esté en una línea */
+        white-space: nowrap; 
     }
 
     .companies .logos img {
-        max-width:70px; /* Ajusta el tamaño de los íconos */
+        max-width:70px;
         height: auto;
         
     }
